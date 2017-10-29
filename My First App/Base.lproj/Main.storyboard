@@ -41,6 +41,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Welchcorgipembroke.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q60-ow-w7J">
+                                <rect key="frame" x="70" y="171" width="240" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -55,4 +59,7 @@
             <point key="canvasLocation" x="-754.39999999999998" y="163.26836581709148"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Welchcorgipembroke.jpg" width="800" height="533"/>
+    </resources>
 </document>
