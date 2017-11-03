@@ -9,21 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var textField: UITextField!
     
     
     @IBOutlet weak var label: UILabel!
     
-    @IBAction func ButtonClicked(_ sender: Any) {
-        print("Button clicked!")
-        
-        if let name = textField.text {
-        
-            label.text = "Hello " + name
+    @IBAction func clickButton(_ sender: Any) {
+        if let age = Int(textField.text!) {
+            let dogAge = age * 7
+            
+            label.text = "Your dog is " + String(dogAge) + " in dog years"
         }
         
     }
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
