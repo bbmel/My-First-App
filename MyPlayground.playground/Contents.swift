@@ -113,6 +113,9 @@ else if (username != "bbmel" && password == 1234) {
     print("Username is wrong")
 }
 
+// generate random number
+let randomNumber = arc4random_uniform(6)
+
 
 
 
