@@ -86,8 +86,32 @@ menuDict["salad"] = 7.99
 let total = menuDict["pizza"]! + menuDict["ice cream"]! + menuDict["salad"]!
 print("The total cost of my meal is \(total)")
 
+// if statements
+let name = "Rob"
+let age = 25
 
+if (name == "Mel" && age == 25) {
+    print("Elo " + name)
+}
+else {
+    print("Gaga")
+}
 
+// lil challenge
+let username = "bbymel"
+let password = 1234
+if (username == "bbmel" && password == 1234) {
+    print("They are correct")
+}
+else if (username != "bbmel" && password != 1234) {
+    print("They are both wrong")
+}
+else if (username == "bbmel" && password != 1234) {
+    print("Password is wrong")
+}
+else if (username != "bbmel" && password == 1234) {
+    print("Username is wrong")
+}
 
 
 
