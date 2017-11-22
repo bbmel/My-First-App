@@ -116,6 +116,42 @@ else if (username != "bbmel" && password == 1234) {
 // generate random number
 let randomNumber = arc4random_uniform(6)
 
+// While loop
+var i = 1
+
+while i <= 20 {
+    print(i * 7)
+    i += 1
+    
+}
+
+// lil challenge
+var z = 0
+var myArr4 = [7, 23, 98, 1, 0, 763]
+while z <= myArr4.count - 1 {
+    myArr4[z] += 1
+    z += 1
+}
+print(myArr4)
+
+// For loops
+
+let myFamily = ["Ralph", "Lenny", "George"]
+for famMem in myFamily {
+    print("Hi there " + famMem)
+}
+
+// to update values in an array using for loops
+var myArr666 = [Double]()
+
+myArr666 = [8, 7, 19, 28]
+for (index, value) in myArr666.enumerated() {
+    myArr666[index] /= 2
+}
+print(myArr666)
+
+
+
 
 
 
