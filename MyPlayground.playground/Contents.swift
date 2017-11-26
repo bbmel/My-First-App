@@ -150,6 +150,22 @@ for (index, value) in myArr666.enumerated() {
 }
 print(myArr666)
 
+// create a variable that does not have a value (dealing with optionals)
+var number: Int?
+print(number)
+
+let userInput = "4"
+let userInteger = Int(userInput)
+
+// if userInteger has a value, set doSomething to userInteger
+// this is only attempted if doSomething has a value
+if let doSomething = userInteger {
+    print(doSomething * 6)
+}
+else {
+    // show an error message to the user
+    print("Error!")
+}
 
 
 
