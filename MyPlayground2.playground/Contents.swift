@@ -24,4 +24,18 @@ mason.dogPark = true
 mason.hasPlayed()
 print(mason.energyLevel)
 
+let num = 4
+var isPrime = true
+
+for index in 2...num-1 {
+    if num % index == 0 {
+        isPrime = false
+    }
+}
+if isPrime == true {
+    print("Number is prime!")
+}
+else {
+    print("Number is not prime")
+}
 
