@@ -24,18 +24,26 @@ mason.dogPark = true
 mason.hasPlayed()
 print(mason.energyLevel)
 
-let num = 4
-var isPrime = true
 
-for index in 2...num-1 {
-    if num % index == 0 {
-        isPrime = false
-    }
-}
-if isPrime == true {
-    print("Number is prime!")
-}
-else {
+
+let num2 = 7
+let num2Dbl = Double(num2)
+var pFactor = 2
+
+if (num2 == 1 || num2 == 2) {
     print("Number is not prime")
 }
+else {
+    while ((Double(pFactor) <= sqrt(num2Dbl)) && (num2 % pFactor != 0)) {
+    pFactor = pFactor + 1
+    }
+    if (Double(pFactor) <= sqrt(num2Dbl)) {
+        print("Number is not prime!!!")
+    }
+    else {
+        print("Number is prime!!!")
+    }
+}
+
+
 
